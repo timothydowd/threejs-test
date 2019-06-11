@@ -51,7 +51,7 @@
         var mesh = new THREE.Mesh(geometry, material)
         
         mesh.material.side = THREE.DoubleSide // shows material on inside of mesh
-       
+		mesh.scale.y = -1
         
         
         scene.add(mesh)
